@@ -1,0 +1,33 @@
+[build-system]
+requires = [
+    "setuptools ~= 80.9",
+    "setuptools-scm ~= 9.2",
+    "setuptools-download ~= 1.1"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trivy_py"
+authors = [
+    { name = "Gauke Teijema", email = "44612327+GaukeT@users.noreply.github.com" },
+]
+description = "Python wrapper around invoking trivy (https://trivy.dev/)"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy"
+]
+requires-python = ">=3.9"
+dynamic = [
+    "version",
+]
+
+[project.urls]
+Repository = "https://github.com/GaukeT/pre-commit-mirrors-trivy"
+
+[tool.setuptools_scm]
+
