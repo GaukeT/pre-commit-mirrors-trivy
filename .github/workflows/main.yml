@@ -14,7 +14,7 @@ jobs:
     uses: asottile/workflows/.github/workflows/tox.yml@v1.8.1
     with:
       env: '["py39"]'
-      os: windows-latest
+      os: windows-2025-vs2026
       wheel-tags: true
   main-macos:
     uses: asottile/workflows/.github/workflows/tox.yml@v1.8.1
